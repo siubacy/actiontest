@@ -41,7 +41,7 @@ function nodePostGetRequest(HOST, PORT, method, callBackFunction, path, cookie) 
         });
     });
     //req.write("bodyString");
-    req.write("把 siubacy.top/提取地址的结果粘贴到此处(注意替换掉此提示文字)");
+    req.write("把 siubacy.top/提取地址.html 的结果粘贴到此处(注意替换掉此提示文字)");
     req.end();
 }
 
